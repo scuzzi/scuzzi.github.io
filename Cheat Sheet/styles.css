@@ -1,0 +1,220 @@
+* {
+    margin:0 auto;
+    box-sizing: border-box;
+    padding:0 ;
+    color: #f7f7f7;
+}
+
+html{
+    background:#f7f7f7;
+}
+
+header {
+  height: 20px; 
+  margin-bottom: 0;
+  
+
+}
+
+
+nav {
+    background-color:#323643;
+    position:fixed ;
+    width: 100%;
+    border-bottom:solid 1px #93deff;
+    height:80px;
+    padding: 10px;
+    z-index: 100;   
+}
+
+nav ul{
+    margin: 0;
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    word-spacing: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.logo{
+    float: left;
+    height: auto;
+    padding: 40px 0 0 ;
+}
+
+
+.banner {
+    text-align: center;
+    height: 100vh;
+    background-image: url("./jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+    margin: 0;
+    background-size: cover;
+    padding: 0;
+}
+
+.banner h1 {
+    font-size: 100px;
+    margin:0 ;
+    padding-top: 15%;
+    vertical-align: 50%;
+}
+
+
+
+.elements{
+    background-color: #606470; 
+    height: 600px;
+    margin-bottom: 0;
+}
+
+.elements h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.elements p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.elements h3{
+    text-align: center;
+    padding-top:100px;
+}
+
+table{
+    margin-top: 1px;
+    border-radius: 10px;
+    padding: 8px;
+    table-layout: fixed;
+    width: 50%;
+    background-color:#323643 ; 
+    border-collapse: collapse;
+
+}
+
+.html_description{
+    border-top-right-radius: 10px;
+   
+}
+
+.name{
+    border-top-left-radius: 10px;
+}
+
+tr:nth-child(even){
+background-color: #606470;
+}
+
+
+
+td{
+text-align:  left;
+padding: 10px;
+}
+
+
+.html_table h3 {
+    justify-content: center;
+    
+}
+
+.categories{
+   table-layout: fixed;
+   text-align: left;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: #1b82ae;
+   border-bottom: solid 2px white;
+
+}
+
+.description{
+    text-align:left;
+
+}
+
+
+.link_selectors{
+background-color: black;
+height:600px;
+margin-bottom: 0;
+
+}
+
+.link_selectors h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+    
+}
+
+
+.link_selectors h3{
+padding-top: 100px;
+text-align: center;
+
+}
+.link_selectors p{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.link_table{
+    margin-top: 2px;
+   
+
+}
+
+.link_table th{
+    padding-left: 5px;
+}
+.example{
+    border-top-right-radius: 10px;
+}
+
+.fonts{
+
+    height: 600px;
+    background-color: #606470; 
+}
+
+.font_symbol{
+    border-top-left-radius: 10px;
+}
+
+.fonts h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.fonts h3{
+text-align: center;
+padding-top: 100px;
+}
+
+
+
+.fonts p{
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+
+footer{
+    background-color: #93deff;
+    text-align: center;
+    
+}
+
+footer p{
+    color: #323643;
+}
