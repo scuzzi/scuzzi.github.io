@@ -1,9 +1,197 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat Sheet</title>
+    <link rel="stylesheet" href="./styles.css" >
+
+</head>
 
 <body>
-  <h1>Scuzzi!</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+<header>
+    <nav>
+        <div class="logo">
+            <h2> Mike's Cheat Sheet </h2>
+        </div>
+        <ul>
+            <li> Elements </li>
+            <li> Link Selectors </li>
+            <li> Fonts</li>
+        </ul>
+  
 
+    </nav>
+
+    
+</header>
+<div class = "banner">
+    <h1> Welcome to the Cheatsheet </h1>    
+    <h2> Here you will have a list of essential elements to form your webpage!</h2>
+</div>
+<section class="elements">
+   <h2 class = "section_title"> Elements</h2>
+    <p class = "section_paragraph">HTML elements are components of an HTML document that describe the structure and content of a page. They are the basic building blocks used to create webpages and structure HTML documents. <br>They consist of many different elements that make the overall structure of your webpage.</p>
+    <p class = "section_paragraph"> See HTML table for example elements!</p>
+
+    <h3> HTML Table </h3>
+    <table class = "html_table" >
+            
+        
+       
+        <thead>
+            <th class = "categories name">Element/Symbol Name</th> 
+            <th class= "categories html_description" >Description</th> 
+                 
+        </thead>
+             <tbody>   
+                <tr> 
+                    <td>
+                        &lt;html&gt; &lt;/html&gt;
+                    </td>
+                    <td>
+                        Represents the root of an HTML document.
+                    </td>
+                </tr>      
+                <tr>
+                    <td>
+                        &lt;body&gt; &lt;/body&gt;
+                    </td>  
+                    <td>
+                        Defines the document's body.
+                    </td>
+                </tr>      
+                <tr> 
+                    <td>
+                        &lt;p&gt; &lt;/p&gt;
+                    </td>
+                    <td>
+                        Defines a paragraph.
+                    </td>
+                </tr>       
+            
+                <tr> 
+                    <td>
+                        &lt;header&gt; &lt;/header&gt;
+                    </td> 
+                    <td>
+                        Represents a container for introductory content or a set of navigational links.
+                    </td> 
+                </tr>  
+                <tr>
+                    <td> &lt;img&gt;</td>
+                    <td> Displays pictures on your page. </td>
+                </tr>
+         </tbody>
+    </table>
+</section>
+
+
+<section class="link_selectors">
+
+    <h2>Html Links </h2>
+    <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.</p>
+
+
+    <h3> Link Table </h3>
+    <table class="link_table">
+        <thead>
+        </thead>
+        <tr> 
+            <th class="categories name">Symbol</th>
+            <th class="categories link_description">Description</th>
+            <th class = "categories example">Notes/Examples</th>
+        </tr> 
+        <tr>
+            <td>
+                &lt;a&gt; &lt;/a&gt;
+            </td>
+            <td>
+                Defines a hyperlink, which is used to link from one page to another.
+            </td>
+            <td>
+                Say you want to send users directly to another website, you would use this.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                target
+            </td>
+            <td>
+                Specifies where to open the linked document. For example a new tab.
+            </td>
+            <td>
+                &lt;a href="https://www.w3schools.com/" target="_blank"&gt;Visit W3Schools!&lt;a&gt;
+            </td>
+        </tr>
+
+        <tr>
+            <td>&lt;a&gt;&lt;img src = "<i>link to a webpage</i>"&gt;&lt;a&gt;</td>
+            <td> An image used as a hyperlink.</td>
+            <td> Remeber to embed </td>
+        </tr>
+    </table>
+
+</section>
+
+
+<section class="fonts">
+    
+    <h2>Fonts!</h2>
+            <p> Fonts are an essential part of your page, you want to make sure it looks good! <br> There are thousands to choose from to add additonal asthetics to your page.<br> You typically would use css to style this but you can also do it in the html as well.</p> 
+    
+    <h3>Font Table & Miscellaneous Stuff </h3>
+    <table>
+
+        <thead>
+            <th class="categories font_symbol"> Symbol/Syntax</th>
+            <th class="categories font_description">Description</th>
+            <th class="categories example">Examples</th>
+
+        </thead>
+        <tr>
+            <td>
+                font-family:Arial;
+            </td>
+        
+            <td>
+                This is the selector used to choose your font to arial.
+            </td>
+
+            <td>
+                Remember to end each css style with a semicolon <mark>';'</mark>.
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                &lt;style&gt;
+            </td>
+
+            <td>
+            This tag is used to syle elements from within the html document 
+            </td>     
+            
+            <td>&lt;p style= "color:blue;"&gt;&lt p&gt; </td>
+        </tr>
+
+        <tr> 
+
+            <td>lorem ipsum</td>
+            <td> This is just filler text, cause i'm lazy</td>
+            <td>Used as an example language.</td>
+
+        </tr>
+    </table>
+
+</section>
+
+
+<footer>
+
+    <p> Thanks for coming! </p>
+    <p> Thank you codecademy for teaching me! </p>
+</footer>
+    
+</body>
 </html>
